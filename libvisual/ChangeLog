@@ -1,3 +1,7 @@
+2013-11-10  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Bump to 0.18.3.
+
 2006-03-04  Chong Kai Xiong  <descender@phreaker.net>
 	
 	* *: Merge from HEAD

@@ -2,7 +2,7 @@
 
 SUBDIRS = plugins po
 
-EXTRA_DIST = libvisual-plugins.spec gettext.h po/Makevars.in
+EXTRA_DIST = m4/ChangeLog  libvisual-plugins.spec gettext.h po/Makevars.in
 
 CLEANFILES = po/Makevars
 DISTCLEANFILES = $(CLEANFILES)
