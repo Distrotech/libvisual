@@ -52,12 +52,12 @@ namespace LV {
   public:
 
       //! seconds
-      long sec;
+      time_t sec;
 
       //! nanoseconds
-      long nsec;
+      time_t nsec;
 
-      explicit Time (long sec_ = 0, long nsec_ = 0)
+      explicit Time (time_t sec_ = 0, time_t nsec_ = 0)
           : sec  (sec_)
           , nsec (nsec_)
       {}
