@@ -394,7 +394,7 @@ namespace LV {
           case BI_RGB:
               result = load_uncompressed (fp, video, bi_bitcount);
               #if VISUAL_BIG_ENDIAN == 1
-              if (error == VISUAL_OK)
+              if (result)
                   flip_byte_order (video);
               #endif
               break;
