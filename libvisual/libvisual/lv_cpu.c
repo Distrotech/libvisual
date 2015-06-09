@@ -179,7 +179,7 @@ static void check_os_altivec_support (void)
 	} else {
 		powerpc_canjump = 1;
 
-		asm volatile
+		__asm __volatile
 			("mtspr 256, %0\n\t"
 			 "vand %%v0, %%v0, %%v0"
 			 :
